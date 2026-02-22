@@ -5,10 +5,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white px-6">
 
-      {/* HERO */}
-      <section className="h-screen flex items-center max-w-6xl mx-auto gap-16">
+      <section className="h-screen flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto gap-16">
 
-  {/* LEFT: TEXT */}
   <div>
     <p className="text-red-600 tracking-widest mb-4">AI & DATA SCIENCE</p>
 
@@ -31,26 +29,13 @@ export default function Home() {
     </div>
   </div>
 
-  {/* RIGHT: PHOTO */}
   <img
     src="/jerri.jpg"
     alt="Jerri Winifred"
-    className="w-64 h-64 rounded-full border-4 border-red-600 shadow-lg shadow-red-600/40"
+    className="w-64 h-64 rounded-full object-cover border-4 border-red-600 shadow-lg shadow-red-600/40"
   />
 
 </section>
-
-      {/* ABOUT */}
-      <section className="max-w-6xl mx-auto py-24">
-        <h2 className="text-4xl font-bold mb-6">
-          About <span className="text-red-600">Me</span>
-        </h2>
-        <p className="text-gray-400 leading-relaxed max-w-3xl">
-          AI & Data Science fresher with strong hands-on knowledge of Python,
-          Machine Learning, CNNs, and data visualization. Passionate about
-          transforming raw data into actionable insights.
-        </p>
-      </section>
 
       {/* SKILLS */}
       <section className="max-w-6xl mx-auto py-24">
