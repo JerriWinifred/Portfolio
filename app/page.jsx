@@ -11,6 +11,11 @@ export default function Home() {
         <h1 className="text-6xl font-extrabold mb-6">
           Jerri Winifred<span className="text-red-600">.</span>
         </h1>
+        <img
+          src="/jerri.jpg"
+          alt="Jerri Winifred"
+          className="w-40 h-40 rounded-full border-4 border-red-600 mb-6"
+        />
         <p className="text-gray-400 max-w-xl mb-8">
           Artificial Intelligence & Data Science undergraduate passionate about
           machine learning, data analysis, and real-world problem solving.
