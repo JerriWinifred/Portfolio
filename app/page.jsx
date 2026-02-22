@@ -30,7 +30,67 @@ export default function Home() {
   </div>
 
   <img
-    src="/jerri.jpg"
+    src="<section className="h-screen flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto gap-16">
+
+  <div>
+    <p className="text-red-600 tracking-widest mb-4">AI & DATA SCIENCE</p>
+
+    <h1 className="text-6xl font-extrabold mb-6">
+      Jerri Winifred<span className="text-red-600">.</span>
+    </h1>
+
+    <p className="text-gray-400 max-w-xl mb-8">
+      Artificial Intelligence & Data Science undergraduate passionate about
+      machine learning, data analysis, and real-world problem solving.
+    </p>
+
+    <div className="flex gap-4">
+      <a href="#projects" className="bg-red-600 px-6 py-3 rounded-xl">
+        View Projects
+      </a>
+      <a href="#contact" className="border border-red-600 px-6 py-3 rounded-xl">
+        Contact Me
+      </a>
+    </div>
+  </div>
+
+  <img
+    src="<section className="h-screen flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto gap-16">
+
+  <div>
+    <p className="text-red-600 tracking-widest mb-4">AI & DATA SCIENCE</p>
+
+    <h1 className="text-6xl font-extrabold mb-6">
+      Jerri Winifred<span className="text-red-600">.</span>
+    </h1>
+
+    <p className="text-gray-400 max-w-xl mb-8">
+      Artificial Intelligence & Data Science undergraduate passionate about
+      machine learning, data analysis, and real-world problem solving.
+    </p>
+
+    <div className="flex gap-4">
+      <a href="#projects" className="bg-red-600 px-6 py-3 rounded-xl">
+        View Projects
+      </a>
+      <a href="#contact" className="border border-red-600 px-6 py-3 rounded-xl">
+        Contact Me
+      </a>
+    </div>
+  </div>
+
+  <img
+    src="public/jerri.jpg"
+    alt="Jerri Winifred"
+    className="w-64 h-64 rounded-full object-cover border-4 border-red-600 shadow-lg shadow-red-600/40"
+  />
+
+</section>public/jerri.jpg"
+    alt="Jerri Winifred"
+    className="w-64 h-64 rounded-full object-cover border-4 border-red-600 shadow-lg shadow-red-600/40"
+  />
+
+</section>/jerri.jpg"
     alt="Jerri Winifred"
     className="w-64 h-64 rounded-full object-cover border-4 border-red-600 shadow-lg shadow-red-600/40"
   />
