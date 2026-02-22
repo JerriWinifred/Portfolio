@@ -6,30 +6,39 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white px-6">
 
       {/* HERO */}
-      <section className="h-screen flex flex-col justify-center max-w-6xl mx-auto">
-        <p className="text-red-600 tracking-widest mb-4">AI & DATA SCIENCE</p>
-        <h1 className="text-6xl font-extrabold mb-6">
-          Jerri Winifred<span className="text-red-600">.</span>
-        </h1>
-        <img
-          src="/jerri.jpg"
-          alt="Jerri Winifred"
-          className="w-40 h-40 rounded-full border-4 border-red-600 mb-6"
-        />
-        <p className="text-gray-400 max-w-xl mb-8">
-          Artificial Intelligence & Data Science undergraduate passionate about
-          machine learning, data analysis, and real-world problem solving.
-        </p>
+      <section className="h-screen flex items-center max-w-6xl mx-auto gap-16">
 
-        <div className="flex gap-4">
-          <a href="#projects" className="bg-red-600 px-6 py-3 rounded-xl">
-            View Projects
-          </a>
-          <a href="#contact" className="border border-red-600 px-6 py-3 rounded-xl">
-            Contact Me
-          </a>
-        </div>
-      </section>
+  {/* LEFT: TEXT */}
+  <div>
+    <p className="text-red-600 tracking-widest mb-4">AI & DATA SCIENCE</p>
+
+    <h1 className="text-6xl font-extrabold mb-6">
+      Jerri Winifred<span className="text-red-600">.</span>
+    </h1>
+
+    <p className="text-gray-400 max-w-xl mb-8">
+      Artificial Intelligence & Data Science undergraduate passionate about
+      machine learning, data analysis, and real-world problem solving.
+    </p>
+
+    <div className="flex gap-4">
+      <a href="#projects" className="bg-red-600 px-6 py-3 rounded-xl">
+        View Projects
+      </a>
+      <a href="#contact" className="border border-red-600 px-6 py-3 rounded-xl">
+        Contact Me
+      </a>
+    </div>
+  </div>
+
+  {/* RIGHT: PHOTO */}
+  <img
+    src="/jerri.jpg"
+    alt="Jerri Winifred"
+    className="w-64 h-64 rounded-full border-4 border-red-600 shadow-lg shadow-red-600/40"
+  />
+
+</section>
 
       {/* ABOUT */}
       <section className="max-w-6xl mx-auto py-24">
